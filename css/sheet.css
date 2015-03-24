@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic);
+html, body, .splash-panel {
+	height: 100% !important;
+	font-family: 'Roboto' !important;
+	background-color: #b0c4de;
+}
+
+.jumbotron {
+	margin-bottom: 0 !important;
+	background-color: #ccffff !important;
+}
+
+.panel {
+	background-color: #b0c4de !important;
+	margin-bottom: 0 !important;
+}
+
+.container-fluid p {
+	padding: 0 100 0 100;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: 'Lobster' !important;
+}
+
+p {
+	font-family: 'Roboto' !important;
+}
+
+h6 a {
+	text-decoration: none;
+	color: black;
+}
+
+#social ul {
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#social li {
+	display: inline-block;
+	padding: 9px;
+	opacity: 0.6;
+	transition: all 0.4s ease 0s;
+}
+
+#social li:hover{
+	opacity: 1;
+}
+
+p {
+	margin: auto;
+	font-size: 2em;
+}
