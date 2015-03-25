@@ -27,6 +27,8 @@ h1 {
 
 p {
 	font-family: 'Roboto' !important;
+	font-style: italic;
+	font-weight: 400;
 }
 
 h6 a {
