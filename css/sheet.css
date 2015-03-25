@@ -9,6 +9,8 @@ html, body, .splash-panel {
 .jumbotron {
 	margin-bottom: 0 !important;
 	background-color: #ccffff !important;
+	min-height: 100%;
+	min-width: 100%;
 }
 
 .panel {
