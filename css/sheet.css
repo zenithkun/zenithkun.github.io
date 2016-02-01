@@ -3,7 +3,7 @@
 html, body, .splash-panel {
 	height: 100% !important;
 	font-family: 'Roboto' !important;
-	background-color: #b0c4de;
+	background-color: #f5f5f5;
 }
 
 .jumbotron {
@@ -12,7 +12,7 @@ html, body, .splash-panel {
 }
 
 .panel {
-	background-color: #b0c4de !important;
+	background-color: #f5f5f5 !important;
 	margin-bottom: 0 !important;
 }
 
