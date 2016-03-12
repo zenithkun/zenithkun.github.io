@@ -3,9 +3,10 @@
 <head>
 	<title>zenithkun</title>
 	<link rel="stylesheet" href="css/sheet.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<!-- IKR? I'm just too lazy to do all those myself. lol -->
 	<!-- Don't judge me. -->
 	<link rel="icon" type="image/png" href="img/favicon.png">
@@ -17,16 +18,20 @@
 		<h1>zenithkun</h1>
 		<div id="social">
 			<ul>
-				<li><a href="http://twitter.com/zenithkun/"><i class="fa fa-twitter fa-3x"></i></a></li>
-				<li><a href="http://github.com/zenithkun/"><i class="fa fa-github-alt fa-3x"></i></a></li>
-				<li><a href="http://steamcommunity.com/id/zenithkun/"><i class="fa fa-steam fa-3x"></i></a></li>
-				<li><a href="http://last.fm/user/itspratyaym/"><i class="fa fa-lastfm fa-3x"></i></a></li>
+				<li data-toggle="tooltip" title="Words of ignorance."><a href="http://twitter.com/zenithkun/"><i class="fa fa-twitter fa-3x"></i></a></li>
+				<li data-toggle="tooltip" title="I'll start working on it, someday."><a href="http://github.com/zenithkun/"><i class="fa fa-github-alt fa-3x"></i></a></li>
+				<li data-toggle="tooltip" title="Buying games like a sir."><a href="http://steamcommunity.com/id/zenithkun/"><i class="fa fa-steam fa-3x"></i></a></li>
+				<li data-toggle="tooltip" title="Oh, I listen to music too."><a href="http://last.fm/user/itspratyaym/"><i class="fa fa-lastfm fa-3x"></i></a></li>
 			</ul>
 		</div>
 		<br />
-		<a class="twitter-timeline"  href="https://twitter.com/zenithkun" data-widget-id="293234378333634561" data-screen-name="zenithkun" data-show-replies="false" data-tweet-limit="1" data-chrome="transparent noscrollbar noheader nofooter noborders"></a>
+		<a class="twitter-timeline"  href="https://twitter.com/zenithkun" data-widget-id="293234378333634561" data-screen-name="zenithkun" data-show-replies="false" data-tweet-limit="1" data-chrome="transparent noheader nofooter noborders"></a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</div>
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
 	<!-- Thanks for still being here! You can go now. -->
 </body>
 </html>
