@@ -1,7 +1,6 @@
+title: zenithkun
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+permalink: pretty
 exclude:
   - Gemfile
   - Gemfile.lock

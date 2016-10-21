@@ -20,7 +20,25 @@ html, body, .splash-panel {
 	padding: 0 100 0 100;
 	line-height: 1.5;
 }
-
+.pull-right {
+	float: right !important;
+}
+.pull-left {
+	float: left !important;
+}
+.my-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.my-nav li {
+	float: right;
+}
+.my-nav li a {
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 h1 {
 	font-family: 'Lobster' !important;
 }
@@ -30,7 +48,9 @@ p {
 	font-style: italic;
 	font-weight: 400;
 }
-
+h5 {
+	float: right;
+}
 h6 a {
 	text-decoration: none;
 	color: black;

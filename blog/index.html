@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog posts
+redirect_from: ["/blog.html"]
+---
+
+<div>
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<h1><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h1>
+			<info datetime="{{ post.date | date: "%Y-%m-%d" }}" class="pull-right">
+				{{ post.date | date: "%b %Y" }}
+			</info>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
