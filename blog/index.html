@@ -4,15 +4,19 @@ title: Blog posts
 redirect_from: ["/blog.html"]
 ---
 
-<div>
-	<ul>
+<div class="container-fluid jumbotron text-center splash-panel">
+	<h1>under construction!</h1>
+	<!--<h2>All posts: </h2>
+	<ul class="list-of-posts">
 		{% for post in site.posts %}
 		<li>
-			<h1><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h1>
-			<info datetime="{{ post.date | date: "%Y-%m-%d" }}" class="pull-right">
-				{{ post.date | date: "%b %Y" }}
+			<info datetime="{{ post.date | date: "%Y-%m-%d" }}" class="pull-right" style="display: inline-block; margin-right:34px">
+				{{ post.date | date: "%B %d %Y" }}
 			</info>
+			<h4 class="blog-title"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h4>
+			
 		</li>
 		{% endfor %}
-	</ul>
+	</ul>-->
 </div>
+

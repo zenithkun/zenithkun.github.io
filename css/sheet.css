@@ -26,18 +26,11 @@ html, body, .splash-panel {
 .pull-left {
 	float: left !important;
 }
-.my-nav ul {
+.blog-title {
+	display: inline-block !important;
+}
+.list-of-posts li {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-.my-nav li {
-	float: right;
-}
-.my-nav li a {
-	display: block;
-	padding: 14px 16px;
-	text-decoration: none;
 }
 h1 {
 	font-family: 'Lobster' !important;
