@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ThinkTac Intern Demo #2</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script>
+
+		var discover = new Audio('fx02.mp3');
+		var hl = new Audio('fx01.mp3');
+		var incorrect = new Audio('fx03.mp3');
+
+		function setFreq(number) {
+			var freq = prompt("Enter the value of frequency: ");
+			if (freq >=300 && freq <= 1500) {
+				switch(number) {
+					case 1:
+						document.getElementById("freq1").innerHTML = freq;
+						$("#freq1").fadeIn("slow");
+						discover.play();
+						break;
+					case 2:
+						document.getElementById("freq2").innerHTML = freq;
+						$("#freq2").fadeIn("slow");
+						discover.play();
+						break;
+					case 3:
+						document.getElementById("freq3").innerHTML = freq;
+						$("#freq3").fadeIn("slow");
+						discover.play();
+						break;
+				}
+			} else {
+				alert("Sorry, that value was wrong!");
+				incorrect.play();
+			}
+		}
+
+		function highlight() {
+			hl.play();
+		}
+	</script>
+
+	<style>
+		.img {
+			position: relative;
+			width: 640px;
+			height: 480px;
+			margin-top: 50px;
+		}
+		#freq1:hover, #freq2:hover, #freq3:hover {
+			cursor: default;
+		}
+		#freq1 {
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			background-color: yellow;
+			top: 35px;
+			left: 85px;
+			padding-top: 22px;
+			display: none;
+		}
+		#freq2 {
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			background-color: yellow;
+			top: 42px;
+			left: 160px;
+			padding-top: 22px;
+			display: none;
+		}
+		#freq3 {
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			background-color: yellow;
+			top: 43px;
+			left: 285px;
+			padding-top: 22px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<div class="container">
+		<h1>Observation - Enter the frequency measured</h1>
+		<h2>Tap the question mark to enter the frequency in that spot!</h2>
+		<div class="img">
+			<img src="2.jpg" usemap="#bugle2" />
+			<div id="freq1">1500</div>
+			<div id="freq2">1500</div>
+			<div id="freq3">1500</div>
+		</div>
+	</div>
+	</center>
+	<map name="bugle2">
+		<area shape="rect" 
+			coords="85,24,150,109"
+			href="#"
+			onmouseover=highlight() 
+			onclick = setFreq(1)
+		 />
+		<area href="#"
+			coords="172,32,226,125"
+			shape="rect"
+			onmouseover=highlight()
+			onclick = setFreq(2)
+		/>
+		<area href="#"
+			coords="346,125,289,20"
+			shape="rect"
+			onmouseover=highlight()
+			onclick = setFreq(3)
+	    />
+	</map>
+
+</body>
+</html>
