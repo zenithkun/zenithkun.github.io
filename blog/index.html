@@ -1,19 +1,39 @@
 ---
 layout: default
-title: Blog posts
+title: zenithkun | blog
 redirect_from: ["/blog.html"]
 ---
+<header class="container">
+  <ul class="navigation" style="display:flex;">
+    <li class="text-muted"><a href="{{site.baseurl}}/">Home</a></li>
+    <li class="text-muted"><a href="{{site.baseurl}}/blog">Blog</a></li>
+  </ul>
+</header>
 
-<div class="container-fluid jumbotron text-center splash-panel">
-	<h1 class="display-4">All posts: </h1>
-	<ul class="list-of-posts">
+<div class="container">
+	<h1>All posts</h1>
+	<br />
+		<!--<div class="row" style="margin: 0;">
 		{% for post in site.posts %}
-		<li>
-			<info datetime="{{ post.date | date: "%Y-%m-%d" }}" class="pull-right" style="display: inline-block; margin-right:34px">
-				{{ post.date | date: "%B %d %Y" }}
-			</info>
-			<h4 class="blog-title"><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h4>
-		</li>
+		<div class="col">
+			<div class="card text-center" style="width: 20rem; margin-bottom:50px;">
+				<img class="card-img-top" src="{{site.baseurl}}/img/{{post.thumbnail}}" width="180px">
+				<div class="card-body">
+					<h2 class="card-title" style="padding-top:7px;">{{ post.title }}</h2>
+					<p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+					<a href="{{site.baseurl}}{{post.url}}" class="btn btn-primary" style="margin-top:10px;">Read more</a>
+					</info>
+				</div>
+				<div class="card-footer text-muted">{{post.date | date_to_string}}</div>
+			</div>
+		</div>
 		{% endfor %}
-	</ul>
+	</div>
+	-->
+	{% for post in site.posts %}
+	<div class="row post" style="position: relative;">
+		<a href="{{ site.baseurl }}{{ post.url }}"><h4>{{ post.title }}</h4></a>
+		<p style="position: absolute; right: 0;">... {{ post.date | date_to_string }}</p>
+	</div>
+	{% endfor %}
 </div>

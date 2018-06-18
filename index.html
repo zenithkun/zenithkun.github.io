@@ -2,24 +2,28 @@
 layout: default
 title: zenithkun
 ---
-	<div class="container-fluid jumbotron text-center splash-panel">
-		<a href="https://kitsu.io/users/Pratkun/library"><img src="img/avi.png" class="img-circle" width="250px"></a>
+	<div class="container-fluid jumbotron text-center splash-panel zenithkun" style="background-color: #fff !important;">
+		<a href="https://kitsu.io/users/Pratkun/library"><img src="img/avi.png" width="280px"></a>
 		<h1>zenithkun</h1>
 		<div id="social">
 			<ul>
-				<li data-toggle="tooltip" title="Inactive but lurking."><a href="http://twitter.com/zenithkun/"><i class="fa fa-twitter fa-3x"></i></a></li>
-				<li data-toggle="tooltip" title="I'll start working on it, someday."><a href="http://github.com/zenithkun/"><i class="fa fa-github-alt fa-3x"></i></a></li>
-				<li data-toggle="tooltip" title="Buying games like a sir."><a href="http://steamcommunity.com/id/zenithkun/"><i class="fa fa-steam fa-3x"></i></a></li>
-				<li data-toggle="tooltip" title="I listen to music too."><a href="http://last.fm/user/itspratyaym/"><i class="fa fa-lastfm fa-3x"></i></a></li>
-				<li data-toggle="tooltip" title="Paragraphs when sentences are not enough."><a href="/blog/"><i class="fa fa-commenting fa-3x"></i></a></li>
+				<li data-toggle="tooltip" title="Inactive but lurking."><a href="http://twitter.com/zenithkun/"><i class="fab fa-twitter fa-2x blackGlyph"></i></a></li>
+				<li data-toggle="tooltip" title="I'll start working on it, someday."><a href="http://github.com/zenithkun/"><i class="fab fa-github-alt fa-2x blackGlyph"></i></a></li>
+				<li data-toggle="tooltip" title="Buying games like a sir."><a href="http://steamcommunity.com/id/zenithkun/"><i class="fab fa-steam fa-2x blackGlyph"></i></a></li>
+				<li data-toggle="tooltip" title="I listen to music too."><a href="http://last.fm/user/itspratyaym/"><i class="fab fa-lastfm fa-2x blackGlyph"></i></a></li>
+				<li data-toggle="tooltip" title="Paragraphs when sentences are not enough."><a href="/blog/"><i class="fas fa-comment-alt fa-2x blackGlyph"></i></a></li>
 			</ul>
 		</div>
 		<br />
-		<a class="twitter-timeline"  href="https://twitter.com/zenithkun" data-widget-id="293234378333634561" data-screen-name="zenithkun" data-show-replies="false" data-tweet-limit="1" data-chrome="transparent noheader nofooter noborders"></a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</div>
+		</div>
+		<div class="container-fluid text-center twitter-index" style="background-color:#f5f5f5";>
+			<a class="twitter-timeline"  href="https://twitter.com/zenithkun" data-widget-id="293234378333634561" data-screen-name="zenithkun" data-show-replies="false" data-tweet-limit="1" data-chrome="transparent noheader nofooter noborders"></a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
 	<script>
 	$(document).ready(function(){
-		$('[data-toggle="tooltip"]').tooltip();
+		$('[data-toggle="tooltip"]').tooltip({
+			placement: 'bottom'
 		});
+	});
 	</script>

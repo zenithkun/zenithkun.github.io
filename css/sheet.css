@@ -1,14 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400italic);
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 html, body, .splash-panel {
 	height: 100% !important;
-	font-family: 'Roboto' !important;
-	background-color: #f5f5f5;
+	background-color: #f7f7fa !important;
+	font-family: 'Muli' !important;
 }
 
 .jumbotron {
 	margin-bottom: 0 !important;
-	background-color: #ccffff !important;
+	background-color: #f7f7fa !important;
 }
 
 .panel {
@@ -32,17 +33,20 @@ html, body, .splash-panel {
 .list-of-posts li {
 	list-style-type: none;
 }
-h1 {
+.zenithkun h1 {
 	font-family: 'Lobster' !important;
+	font-size: 4em;
+	color: #333;
 }
 
-p {
-	font-family: 'Roboto' !important;
-	font-style: italic;
-	font-weight: 400;
+.post a{
+	color: #000;
 }
-h5 {
-	float: right;
+.post a:hover {
+	color: #fff;
+	background-color: #000;
+	text-decoration: none;
+
 }
 h6 a {
 	text-decoration: none;
@@ -65,15 +69,53 @@ h6 a {
 #social li {
 	display: inline-block;
 	padding: 9px;
-	opacity: 0.6;
+	opacity: 0.8;
 	transition: all 0.4s ease 0s;
 }
 
 #social li:hover{
 	opacity: 1;
 }
+.twitter-index {
+	padding-top: 50px;
+}
+.postCards {
+	margin-top: 50px;
+}
+.blackGlyph {
+	color: black;
+}
+.postContent p {
+	text-align: justify;
+}
+header {
+	margin-top: 70px;
+	/*margin-bottom: 30px;
+	height: 100px;*/
 
+}
+header ul {
+	margin-bottom: 0;
+	text-align: left;
+	float: right;
+	vertical-align: text-bottom;
+	/*height: 100px;*/
+}
+header ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+header ul li a {
+	padding: 0 0.8em;
+	text-decoration: none;
+	color: inherit;
+}
+header ul li a:hover {
+	text-decoration: none;
+	color: inherit;
+}
 p {
 	margin: auto;
-	font-size: 2em;
 }
