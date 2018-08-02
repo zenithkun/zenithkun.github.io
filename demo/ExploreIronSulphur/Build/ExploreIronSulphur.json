@@ -1,0 +1,13 @@
+{
+"companyName": "ThinkTac",
+"productName": "ExploreIron&Sulphur",
+"dataUrl": "ExploreIronSulphur.data.unityweb",
+"asmCodeUrl": "ExploreIronSulphur.asm.code.unityweb",
+"asmMemoryUrl": "ExploreIronSulphur.asm.memory.unityweb",
+"asmFrameworkUrl": "ExploreIronSulphur.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
