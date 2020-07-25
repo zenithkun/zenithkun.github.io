@@ -1,17 +1,29 @@
 ---
 layout: default
 ---
-<header class="container">
-  <!--<img src="{{ site.baseurl }}/img/avi.png" width="100px">-->
-  <ul class="navigation" style="display:flex;">
-    <li class="text-muted"><a href="{{site.baseurl}}/">Home</a></li>
-    <li class="text-muted"><a href="{{site.baseurl}}/blog">Blog</a></li>
-  </ul>
-</header>
-  <div class="container">
-    <h1>{{ page.title }}</h1>
-    <p class="lead text-muted">{{ page.date | date_to_string}} - {{ page.categories }}</p>
-    <div style="text-align:justify;">
-      {{ content }}
-    </div>
+{% include nav.html %}
+
+<div class="container mb-5">
+  <h1>{{ page.title }}</h1>
+  <p class="lead text-muted">
+    {{ page.date | date_to_string}} -
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}</p>
+
+  <div class="text-center">
+    <figure class="figure text-center">
+      <img src="{{site.baseurl}}/img/{{page.thumbnail}}" width="720px" class="figure-img img-fluid">
+      <figcaption class="figure-caption text-right">{{ page.thumnail_cap }}</figcaption>
+    </figure>
   </div>
+  <div class="text-justify">
+    {{ content }}
+  </div>
+</div>

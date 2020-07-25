@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Neque porro quisquam est qui dolorem"
-date: 2018-06-15 17:34:06 +0530
-categories: uncategorized
-thumbnail: 1_1.png
+title: "Why Overwatch is in a good state right now"
+date: 2020-07-26 03:25:00 +0530
+categories: overwatch
+thumbnail: 2_1.jpg
+thumnail_cap: "It's a promise!"
 excerpt_separator: <!--more-->
 ---
 
-Lorem ipsum dolor sit amet, <!--more-->consectetur adipiscing elit. Aenean quis erat eget ipsum tincidunt consequat ut vitae ante.
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis erat eget ipsum tincidunt consequat ut vitae ante.
+<!--more-->
 Phasellus pretium ex velit, quis tristique ipsum placerat scelerisque. Donec ut nunc quam. Nulla vitae enim venenatis, congue quam at, venenatis ante. Duis ante nisi, viverra in nibh a, volutpat bibendum mauris. Curabitur tristique, mi placerat varius ornare, ipsum erat venenatis erat, nec ultrices nisi tellus at neque. Aliquam eget libero efficitur, finibus dolor eget, molestie metus. Praesent urna libero, vehicula vel tortor sed, lacinia venenatis ipsum. Sed vel massa justo.
 
 Cras malesuada accumsan convallis. Praesent tristique lacus in justo facilisis commodo in a dui. Suspendisse potenti. In ante sapien, rutrum eu tincidunt id, iaculis ac libero. Nunc et elit tortor. Fusce ac sapien eget lorem tempor malesuada. In sapien odio, faucibus sollicitudin ipsum quis, dictum ultrices lorem. Nullam aliquet lectus urna, sit amet vehicula diam ornare vulputate. Donec sit amet velit et dui porta iaculis. Fusce sem metus, commodo sed ex sed, vehicula suscipit ligula. Integer metus nulla, blandit vel finibus sed, iaculis vel enim. Proin lacinia vitae velit at laoreet.
