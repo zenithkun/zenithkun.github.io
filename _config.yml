@@ -1,6 +1,7 @@
 title: zenithkun
 markdown: kramdown
 permalink: /:categories:/title/
+baseurl: ""
 exclude:
   - Gemfile
   - Gemfile.lock
