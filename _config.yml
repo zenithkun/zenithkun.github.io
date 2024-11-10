@@ -1,6 +1,6 @@
 title: zenithkun
 markdown: kramdown
-permalink: /:categories:/title/
+permalink: /blog/post/:categories/:title
 baseurl: ""
 exclude:
   - Gemfile

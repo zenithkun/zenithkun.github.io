@@ -12,11 +12,11 @@ redirect_from: ["/blog.html"]
 	<div class="card mb-3">
 		<div class="card-body">
 			<h3 class="card-title">{{ post.title }}</h3>
-			<h5 class="card-subtitle mb-2 text-muted">{{ post.date | date_to_string }} - <a href="{{site.baseurl}}/categories/#{{post.categories}}">{{post.categories}}</a></h5>
+			<h5 class="card-subtitle mb-2 text-muted">{{ post.date | date_to_string }} - <a href="{{site.baseurl}}/blog/categories/#{{post.categories}}">{{post.categories}}</a></h5>
 			<p class="card-text text-justify">
 				{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 			</p>
-			<a href="{{site.baseurl}}{{post.url}}" class="card-link">Read more...</a>
+			<a href="{{ site.baseurl }}{{ post.url }}" class="card-link">Read more...</a>
 		</div>
 
 	</div>
