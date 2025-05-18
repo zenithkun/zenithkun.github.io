@@ -3,7 +3,7 @@ layout: post
 title: "Moving to Linux"
 date: 2025-05-18 03:49:00 +0530
 categories: meta
-thumbnail: 3_1.png
+thumbnail: 3_1.webp
 thumnail_cap: "\"Why do *nix users always do this?\""
 excerpt_separator: <!--more-->
 ---
@@ -25,5 +25,3 @@ Having tinkered with varying levels of portability and sophistication of Puppy L
 Now that I have experienced various desktop environments that Linux offers, namely XFCE, KDE, Cinnamon and MATE, I think Wayland has something special cooking in this space. While not technically a desktop environment but rather a window manager-- Wayland, and more specifically, "Hyprland" (built on top of Wayland) has been garnering more support than ever since its inception in 2022. It is also evident from the fact that KDE, one of the household names in desktop environments has permanently switched to Wayland from KDE Plasma 6. The Linux community is eagerly watching it grow into a mainstay in the Linux desktop experience.
 
 As of drafting this essay, it has been 8 days of using Arch Linux and Windows has not been missed. Though I'll admit that I've needed it for updating firmware on a pair of earbuds and some applications that have not yet been transitioned over. I want to document that going forward whilst backtracking to docuemnt how I got to dailying this environment. Well, I just need to lock in, man.
-
-<br />
