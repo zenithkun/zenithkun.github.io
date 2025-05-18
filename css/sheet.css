@@ -1,21 +1,22 @@
-@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Muli');
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
 html,
 body,
 .splash-panel {
     height: 100% !important;
-    background-color: #f7f7fa !important;
+    /*background-color: #f7f7fa !important;*/
     font-family: 'Muli' !important;
 }
 
 .jumbotron {
     margin-bottom: 0 !important;
-    background-color: #f7f7fa !important;
+    /*background-color: #f7f7fa !important;*/
 }
 
 .panel {
-    background-color: #f5f5f5 !important;
+    /*background-color: #f5f5f5 !important;*/
     margin-bottom: 0 !important;
 }
 
@@ -43,7 +44,6 @@ body,
 .zenithkun h1 {
     font-family: 'Lobster' !important;
     font-size: 4em;
-    color: #333;
 }
 
 .post a {
@@ -85,16 +85,16 @@ h6 a {
     opacity: 1;
 }
 
-.twitter-index {
-    padding-top: 50px;
-}
-
 .postCards {
     margin-top: 50px;
 }
 
-.blackGlyph {
-    color: black;
+[data-bs-theme='light'] .themeGlyph {
+    color:#000 !important;
+}
+
+[data-bs-theme='dark'] .themeGlyph {
+    color:#fff !important;
 }
 
 .postContent p {

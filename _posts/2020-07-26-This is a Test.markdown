@@ -3,7 +3,7 @@ layout: post
 title: "This is a Test"
 date: 2020-07-26 03:15:00 +0530
 categories: meta
-thumbnail: 1_1.jpg
+thumbnail: 1_1.webp
 thumnail_cap: "You heard that right."
 excerpt_separator: <!--more-->
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Why Overwatch is in a good state right now"
 date: 2020-07-26 03:25:00 +0530
 categories: overwatch
-thumbnail: 2_1.jpg
+thumbnail: 2_1.webp
 thumnail_cap: "It's a promise!"
 excerpt_separator: <!--more-->
 ---
