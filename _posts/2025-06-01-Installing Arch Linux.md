@@ -30,7 +30,7 @@ I would like to draw attention on two configurations here:
 1. Desktop profile
 2. Partitioning table
 
-For the desktop environment, I chose Hyprland. I've covered this on the previous post, Moving to Linux. In partitioning, I opted for separate root (/) and home partitions for compartmentalization and easy distro hopping in the future.
+For the desktop environment, I chose Hyprland. I've covered this on the previous post, [Moving to Linux]({% post_url 2025-05-18-Moving to Linux %}). In partitioning, I opted for separate root (/) and home partitions for compartmentalization and easy distro hopping in the future.
 
 <div class="text-center">
     <figure class="figure text-center">
@@ -40,6 +40,7 @@ For the desktop environment, I chose Hyprland. I've covered this on the previous
 </div>
 
 Looking back on this, I could have chosen BTRFS due to its robustness and easy restore point access. However, it is also relatively new so I stuck to the ol' ext4 file system.
+
 It was a good decision to opt for a double kernel system which has the cutting edge kernel and the LTS (long term support) kernel in case something breaks and I need to troubleshoot. If you're not ready to fix issues on the daily, things are going to be get difficult, really fast. It is by nature for Arch to be susceptible to be broken as it strives to be on a rolling release with the regular updates.
 
 <div class="text-center">
