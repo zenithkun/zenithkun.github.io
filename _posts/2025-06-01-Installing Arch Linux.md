@@ -42,4 +42,12 @@ For the desktop environment, I chose Hyprland. I've covered this on the previous
 Looking back on this, I could have chosen BTRFS due to its robustness and easy restore point access. However, it is also relatively new so I stuck to the ol' ext4 file system.
 It was a good decision to opt for a double kernel system which has the cutting edge kernel and the LTS (long term support) kernel in case something breaks and I need to troubleshoot. If you're not ready to fix issues on the daily, things are going to be get difficult, really fast. It is by nature for Arch to be susceptible to be broken as it strives to be on a rolling release with the regular updates.
 
+<div class="text-center">
+    <figure class="figure text-center">
+        <img src="/img/4_3.webp" width="720px" class="figure-img img-fluid">
+        <figcaption class="figure-caption text-right">22 day update on the system</figcaption>
+    </figure>
+</div>
+
+
 In the following posts, I want to cover issues I faced with audio and video on Wayland and how I fixed them.
